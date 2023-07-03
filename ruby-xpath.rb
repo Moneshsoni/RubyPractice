@@ -15,4 +15,8 @@ XPath.each(xmldoc, "//type") { |e| puts e.text }
   
 # Get an array of all of the cloth brands.   
 names = XPath.match(xmldoc, "//brand").map {|x| x.text }   
-p names  
+p names 
+=begin
+This is multi line
+comment
+=end
